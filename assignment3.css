@@ -1,0 +1,41 @@
+h1{
+    color: hotpink;
+
+}
+
+#School {
+    background-color: #c0ffee;
+}
+
+.text-color{
+    color: purple;
+}
+
+.blue{
+    color: lightblue;
+}
+
+.orange{
+    color: lightcoral;
+}
+
+.red{
+    color: mediumvioletred;
+}
+
+a:link{
+    color: red;
+}
+
+a:hover{
+   color: yellow;
+}
+
+a:visited{
+    color: green;
+}
+
+#divexample{
+    color: plum;
+    background-color:blanchedalmond;
+}
