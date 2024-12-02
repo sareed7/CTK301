@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck and Cat</title>
+  <link rel="stylesheet" href="port2.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+ 
+</head>
+<body>
+  <div id="wrapper">
+    <div class="text-box">
+      <p>Pastry chupa chups tootsie roll dragée gummies bonbon macaroon. Gummies topping tiramisu dragée jujubes fruitcake wafer fruitcake. Powder croissant cookie bonbon jelly-o biscuit.<br>
+        Jujubes chupa chups marzipan pastry oat cake marzipan liquorice jelly-o. Chocolate cotton candy cookie tootsie roll halvah. Tootsie roll soufflé shortbread tart macaroon biscuit jujubes pie wafer.<br>
+        Sweet pie cheesecake toffee toffee cake. Liquorice muffin chupa chups croissant powder muffin. Caramels candy canes pastry marshmallow fruitcake topping pudding bear claw bonbon.
+      </p>
+    </div>
+
+    <section>
+    <div id="myCarousel" class="f-carousel">
+      <div class="f-carousel__slide"><img src="game.jpg"></div>
+      <div class="f-carousel__slide"><img src="game.jpg"></div>
+      <div class="f-carousel__slide"><img src="game.jpg"></div>
+    </div>
+  </section>
+    <div class="text-box">
+      <p>Sweet roll cake donut oat cake candy tiramisu. Jelly-o cupcake cake jujubes lollipop sweet roll toffee. Gummi bears muffin fruitcake tart ice cream.<br>
+        Marshmallow danish gingerbread sweet roll soufflé pie lollipop.
+      </p>
+    </div>
+    <div class="footer">
+      <p>Redirect to main</p>
+    </div>
+  </div>
+
+  <script>
+    //
+    Fancybox.bind("[data-fancybox]", {});
+
+    // Javascript for carousel 
+   
+      const container = document.getElementById("myCarousel");
+      const options = {infinite: false };
+      new Carousel(container, options);
+
+   
+ 
+  </script>
+</body>
+
+</html>
