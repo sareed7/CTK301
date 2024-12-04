@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffccff;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #b3e6ff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.table-of-contents {
+    background-color: #b3e6ff;
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+}
+
+.table-of-contents h2 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.table-of-contents ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 25px;
+    word-spacing: 50%;
+    padding-bottom: 50%;
+   
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text {
+    background-color: #b3e6ff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: justify;
+}
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid #e0ffff;
+    background-color:#ffccff ;
+    padding: 1em;
+  }
+
+  .emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1{ font-family: 'Emilys Candy', serif; }
+
+  a:link{
+    color: black;
+}
+
+a:hover{
+   color: pink;
+}
+
+a:visited{
+    color:violet;
+}

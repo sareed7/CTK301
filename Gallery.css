@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffccff;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-color: #b3e6ff;
+    padding: 15px;
+    border-radius: 8pxpx;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b3e6ff;
+    padding: 10px 0;
+   border: 8px;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    background-color: #b3e6ff;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #ffe6ff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    background-color: #b3e6ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid #e0ffff;
+    background-color:#ffccff ;
+    padding: 1em;
+  }
+
+  .emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1{ font-family: 'Emilys Candy', serif; }
+
+  a:link{
+    color: black;
+}
+
+a:hover{
+   color: pink;
+}
+
+a:visited{
+    color:violet;
+}
+
