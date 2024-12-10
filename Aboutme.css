@@ -88,9 +88,11 @@ a:hover{
 a:visited{
     color:violet;
 }
+
 a:link{
     text-decoration: none;
 }
+
 #wrapper {
     margin: 1em auto;
     width: 960px;
