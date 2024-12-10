@@ -56,7 +56,7 @@ body {
 .image-section img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
      border-top: 20px;
     margin-top: 8%;
 }
