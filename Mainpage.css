@@ -26,34 +26,28 @@ body {
     font-size: 24px;
 }
 
-.content {
+ .content {
+    margin-top: 0px;
+    padding: 0 10%;
+    width: 100%;
+  }
+.nav {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-top: 20px;
-}
-
-.table-of-contents {
+    justify-content: space-around;
     background-color: #b3e6ff;
-    padding: 20px;
-    width: 40%;
-    border-radius: 8px;
-}
-
-.table-of-contents h2 {
-    margin-top: 0;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.table-of-contents ol {
+    padding: 10px 0;
     margin: 0;
-    padding-left: 20px;
-    font-size: 25px;
-    word-spacing: 50%;
-    padding-bottom: 50%;
-   
-}
+    border-radius: 8px;
+  }
+  
+  .nav-item {
+    background-color: #b3e6ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
 
 .image-section {
     width: 50%;
