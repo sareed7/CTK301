@@ -69,13 +69,14 @@ body {
     text-align: justify;
 }
 
-.emilys-candy-regular {
-    font-family: "Emilys Candy", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
-  h1{ font-family: 'Emilys Candy', serif; }
+  h1{ font-family: 'Nunito', serif; }
 
   a:link{
     color: black;
